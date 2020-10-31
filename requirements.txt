@@ -1,0 +1,7 @@
+###### Dependencies ######
+numpy
+matplotlib
+tqdm
+torch
+torchvision
+opencv-python
