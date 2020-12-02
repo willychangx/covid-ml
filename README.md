@@ -1,7 +1,15 @@
 # COVID19 Classifier
 
+## Google Colab
+It is easiest to lauch this code using Google Colab. To do so, go to eg.ipynb and click "Open in Colab."
+
+**NOTE:** It is recommended to use GPU when running (Runtime -> Change runtime type -> GPU).
+
+
 ## Recommendations
 It is recommended to run this project using a virtual environment like Anaconda. Below are references to install it on your respective OS.
+
+If you are running on your local machine, make sure to have the Covid, Healthy, and Others folder with images (freshly unzipped) in the same directory as the code.
 
 ***Windows***  
 [Installing on Windows](https://docs.anaconda.com/anaconda/install/windows/)
@@ -26,7 +34,7 @@ You can check your dependencies by running:
 `python3 checkdeps.py`
 
 To install, run:  
-`pip3 install -r requirements.txt`
+`pip install -r requirements.txt`
 
 **NOTE:** You have to have pip3 and Python3. See below for instructions on how to install on Windows and Linux.
 
